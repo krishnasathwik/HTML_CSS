@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('Untitled.jpeg');
+       
+    
+
+}
+.wrapper{
+    
+    width: 420px;
+    background: purple;
+    color: white;
+    border-radius: 18px;
+    padding: 30px 40px;
+    backdrop-filter: blur(500px);
+
+}
+.wrapper h1{  
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .name-box{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 30px;
+    
+}
+.name-box input{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255,255, .2);
+    padding: 25px 45px 20px 20px;
+}
+.name-box i{
+    position: absolute;
+   
+    right: 20px;
+    top: 50%;
+    
+    
+    transform: translateY(-50%);
+
+}
+
+
+.wrapper .butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.butt button{
+    border-radius: 15px;
+    font-size: 14.5px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.wrapper .check-box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.check-box a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14.5px;
+}
+.wrapper .register{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14.5px;
+    margin-bottom: 10px;
+    
+    
+    
+    
+}
+.register a{
+    color: white;
+    text-decoration: none;
+}
+
